@@ -1,0 +1,12 @@
+.dialog-btn-wrapper {
+   
+}
+.dialog-btn{
+    border: 0.15em solid #0047AB;
+    color: #0047AB;
+    padding: 0.5em 0.8em; 
+    background-color: white;
+    font-style: sans-serif;
+    font-size: 1em;
+    border-radius: 0.2em;
+}
