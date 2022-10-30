@@ -1,12 +1,56 @@
 .dialog-btn-wrapper {
    
 }
+
+.btn {
+    padding: 0.5em 0.8em; 
+    background-color: white;
+    font-size: 1em;
+    border-radius: 0.2em;
+}
 .dialog-btn{
     border: 0.15em solid #0047AB;
     color: #0047AB;
-    padding: 0.5em 0.8em; 
-    background-color: white;
-    font-style: sans-serif;
-    font-size: 1em;
-    border-radius: 0.2em;
+}
+
+.confirmation-dialog-btn-wrapper {
+    padding-top: 20px;
+}
+
+.confirmation-btn{
+    border: 0.15em solid #0047AB;
+    color: #0047AB;
+}
+
+.cancel-btn{
+    border: 0.15em solid red;
+    color: red;
+    margin-left: 40px
+}
+
+.confirmation-dialog-modal-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 200;
+    background-color: #999;
+    opacity: 0.8;
+    overflow: auto;
+}
+
+.confirmation-dialog-modal-content {
+    margin: 20% auto;
+    width: 400px;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 0.3em;
+    background-color: #FFF;
+}
+
+.hide-modal {
+    display: none;
 }

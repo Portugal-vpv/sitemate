@@ -1,7 +1,25 @@
 <link rel="stylesheet" href="dialog.css">
 <script src="dialog.js"></script>
-<div class="dialog-btn-wrapper">
-    <button id="dialog-btn-1" class="dialog-btn">
-        Click Me
-    </button>
+<div class="confirmation-dialog-main-wrapper">
+    <div class="dialog-btn-wrapper">
+        <button id="dialog-btn-1" class="btn dialog-btn">
+            Click Me
+        </button>
+        <div class="dialog-btn-response-wrapper">
+            <p>Hello</p>
+        </div>
+    </div>
+    <div class="confirmation-dialog-modal-wrapper hide-modal" id="confirmation-dialog-modal-wrapper">
+        <div class="confirmation-dialog-modal-content">
+            <p>Are you sure you want to continue ?</p>
+            <div class="confirmation-dialog-btn-wrapper">
+                <button class="btn confirmation-btn">
+                    Yes
+                </button>
+                <button class="btn cancel-btn">
+                    Cancel
+                </button>
+            </div>
+        </div>
+    </div>
 </div>
